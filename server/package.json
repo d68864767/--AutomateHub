@@ -1,0 +1,27 @@
+{
+  "name": "automatehub",
+  "version": "1.0.0",
+  "description": "An advanced concept for a comprehensive one-click automation platform",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/AutomateHub.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^15.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
